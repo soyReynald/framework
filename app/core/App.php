@@ -29,8 +29,7 @@ class App {
         $this->params = $url ? array_values($url) : [];
 
         call_user_func_array(array($this->controller, $this->method), $this->params);
-
-        // echo $this->controller;
+        
     }
 
     private function filterUrl(){
