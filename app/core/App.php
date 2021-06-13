@@ -1,8 +1,8 @@
 <?php
 
 class App {
-    private $controller = 'default';
-    private $method = 'default';
+    private $controller = 'Home';
+    private $method = 'index';
     private $params = array();
 
     public function __construct(){
