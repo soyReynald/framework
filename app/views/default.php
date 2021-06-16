@@ -11,10 +11,19 @@
 </head>
 <body>
     <div class="container">
-        <h1>This is a view coming from the Home index</h1>
-        <h3><?= $company ?></h3>
-        <h3><?= $web ?></h3>
-        <h3><?= $address ?></h3>
+        <h1>This is a view coming from the Home controller and the Index method</h1>
+        <pre>
+        <?php 
+            // This is just learning purposes:
+            
+            //    print_r($tasks); 
+
+            print_r(Messages::getMsg());
+        ?>
+        <?php 
+            // Learning purposes:
+            Messages::clearMsg(); ?>
+        </pre>
     </div>
 </body>
 </html>
