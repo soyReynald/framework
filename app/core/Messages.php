@@ -45,8 +45,9 @@ class Messages {
             session_start();
         
         }
-        
+
     }
+    
 }
 
 
