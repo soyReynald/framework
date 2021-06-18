@@ -1,5 +1,5 @@
 <?php
-
+// This is a sample Model
 class Task extends Model {
     
     public function allTask(){
