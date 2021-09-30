@@ -16,9 +16,9 @@
         <?php 
             // This is just learning purposes:
             
-            //    print_r($tasks); 
+            print_r($tasks); 
 
-            print_r(Messages::getMsg());
+            //print_r(Messages::getMsg());
         ?>
         <?php 
             // Learning purposes:
